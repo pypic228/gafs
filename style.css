@@ -1,0 +1,78 @@
+h1 {text-align: center;
+
+}
+img {width: 100%;height: 620px;
+
+}
+header {background-color: purple;padding: 10px;background:linear-gradient(to right ,rgb(255, 0, 200),rgb(83, 2, 158)) 
+
+}
+.cas {width: 400px;height:400px ;margin-top: 50px;margin-left: 20px;background:linear-gradient(white,red,yellow);
+
+}
+.das {width: 400px;height:400px;;background:linear-gradient(green,brown) ; margin-top: 50px;margin-right: 20px;
+
+}
+.main{
+    padding: 0 10%;
+}
+.gallery {display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;   
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    max-width: 400px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.card img{
+    width: 100%;
+}
+p {background-color:purple ;
+
+}
+
+
+.gas {width: 400px;height: 400px;margin-left: 20px;margin-top: 60px;
+
+}
+.asd {width: 400px;height: 400px;margin-right: 20px;margin-top: 60px;
+
+}
+body {animation: fon 3s ease-in-out infinite;
+    background-image: linear-gradient(purple, black);
+
+}
+@keyframes fon {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 0 50%;
+    }
+   100%{
+    background-position: 0 0;
+}
+
+}
+/* анимация*/
+/* http://css.yoksel.ru/animation-for-gradients/ */
+
+.asd {box-shadow: 20px 20px 10px grey;
+
+}
+.cas {
+    box-shadow: -20px 20px 10px yellow;
+}
+.das {
+    box-shadow: 20px 20px 10px rgb(192, 47, 47);
+}
+.gas {box-shadow: -20px 20px 10px white;
+
+}
+
+
