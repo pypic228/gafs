@@ -75,4 +75,13 @@ body {animation: fon 3s ease-in-out infinite;
 
 }
 
-
+.gallery img:hover {
+opacity: 0.5;
+}
+p {
+    transition: 1s; 
+    text-align: center; 
+  }
+  p:hover {
+    transform: scale(1.2); 
+  }
